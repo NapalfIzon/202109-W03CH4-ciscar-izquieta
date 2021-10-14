@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest --watchAll --collect-coverage",
     "sass": "sass src/styles.scss build/css/styles.css ",
-    "sass-dev": "sass --watch src/styles.scss build/css/styles.css ",
-    "start": "json-server series.json --port 3001"
+    "sass-dev": "sass --watch src/styles.scss build/css/styles.css "
   },
   "babel": {
     "env": {
@@ -32,8 +31,5 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "jest": "^27.2.5"
-  },
-  "dependencies": {
-    "json-server": "^0.17.0"
   }
 }
