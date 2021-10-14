@@ -1,4 +1,4 @@
-import Component from "../../component.js";
+import Component from "../../Component.js";
 import SeriesService from "./SeriesService.js";
 
 const series = new SeriesService();
